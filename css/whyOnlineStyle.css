@@ -74,8 +74,7 @@
     width: 100%;
     
     background-color: rgb(1, 210, 142);
-    /* background-image: linear-gradient(to left bottom, #10d392, #00cca0, #00c4aa, #00bbb1, #00b2b4, #00a8b8, #009eba, #0093b9, #0084b7, #2373b2, #3e61a7, #544e97); */
-    /* background-image: linear-gradient(to left bottom, #10d392, #0caf7a, #0b8c62, #0a6b4b, #094b35); */
+
     padding: 10%;
     padding-top: 0;
 
@@ -178,7 +177,7 @@
       width: 100%;
       opacity: 0.8;
       max-width: 500px;
-      padding-top: 30%;
+      padding-top: 35%;
     }
 
     .image-container-text{
@@ -204,10 +203,25 @@
     }
 
     .image-container-text h1{
-      font-size: 2.5em;
+      font-size: 3.6em;
       text-align: center;
+      padding-bottom: 20px;
     }
 
+  }
+
+  @media  screen and (max-width:380px) {
+    .image-container-text p{
+      display: none;
+    }
+
+    .image-container-text h1{
+      font-size: 3em;
+      /* background-color: aqua; */
+      margin-top: 20%;
+    }
+
+    
   }
 
   .scroll-downs {
